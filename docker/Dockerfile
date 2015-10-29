@@ -17,3 +17,5 @@ ENV PATH $PATH:$JAVA_HOME/bin
 
 RUN chmod og+x -R $JIRA_HOME
 
+RUN cd /usr/local/lib && rm atlassian-cli-4.5.0-distribution.zip && rm jdk-8u51-linux-x64.tar.gz 
+

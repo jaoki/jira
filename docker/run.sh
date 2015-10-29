@@ -39,8 +39,5 @@ docker run -i -t \
   ${IMAGE_NAME}-${USER_NAME} \
   bash
 
-#  -v "/home/${USER_NAME}/.m2:/home/${USER_NAME}/.m2" \
-# -v "$PWD:/home/${USER_NAME}/incubator-geode" \
-
 popd
 
